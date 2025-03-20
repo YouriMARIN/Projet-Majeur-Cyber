@@ -1,0 +1,239 @@
+html{
+    height: 100%;
+} 
+div, form {
+	background: transparent;
+	border: 0;
+	vertical-align: baseline;}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    position:relative;
+    background-color: rgb(227, 232, 209); 
+
+}
+
+header{
+    text-align: center;
+}
+
+
+ .titre {
+        font-style: oblique,  serif;
+        font-size: 80px;
+        color: #333;
+        text-align: center;
+        text-transform: uppercase; 
+        letter-spacing: 2px;     
+        display: inline-block;  
+ }
+
+
+ .logo {
+    width: 80px; 
+    height: 80px; 
+    box-align: middle; 
+    margin-right: 10px; 
+}
+
+
+main {
+    max-width: 2000x;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-height: fit-content;
+}
+
+
+form {
+    margin-bottom: 25px;
+}
+
+
+.click, .form {
+    text-align: center;
+}
+
+
+
+input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+} 
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    table-layout: fixed;
+}
+
+
+
+.table th, .table td {
+    border: 1px solid #0a0a0a;
+    padding: 8px;
+    text-align: left;
+    max-width:fit-content;
+    word-wrap: break-word;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.cell {
+    padding: 8px;
+    text-align: left; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    box-sizing: content-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #136404;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+
+
+button:hover {
+    background-color: #737772;
+}
+
+
+nav {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px; 
+    text-decoration: none;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #136404; 
+    color: #fff; 
+    font-size: 14px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a span {
+    display: block;
+    padding: 10px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav a:hover {
+    background-color: #737772; 
+}
+
+h2 {
+    display: inline-block;
+    padding: 10px 15px; 
+    border-radius: 50px;
+    border-style: double;
+    border-color: #136404;
+    overflow: hidden;
+    background-color: #fff; 
+    color: #136404; 
+    font-size: 35px; 
+    font-style: oblique,  serif;
+    /* font-family: Arial, Helvetica, serif;  */
+    margin: 20px 0; 
+    box-shadow: none; 
+}
+
+
+#about {
+    max-width: 2000x;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+} 
+
+
+.mot {
+    font-weight: bold;
+    color: #136404; 
+    font-size: 18px;
+}
+
+
+/* .score{
+    /* Style pour l'élément contenant le score */
+/* .score {
+    font-size: 18px;
+    color: #333;
+/*} */
+
+/* Style pour la valeur du score */
+/* .score-value {
+    font-weight: bold;
+    color: #136404; /* Couleur verte pour le score */
+/*} */
+
+/*} */
+.score{
+    /* Style pour l'élément contenant le score */
+    font-size: 18px;
+    /*color: #333;*/
+}
+
+ /* .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid red;
+}  */
+
+/* Style pour la valeur du score */
+.score-value {
+    font-weight: bold;
+    color: #136404; /* Couleur verte pour le score */
+    
+}
+
+#generate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gauge-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#telecharger-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
