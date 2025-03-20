@@ -8,6 +8,33 @@ body{
     margin-top: 10%;
 }
 
+/* Bouton retour */
+nav {
+    display: flex; 
+    justify-content: flex-start; 
+    margin: 30px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px; 
+    text-decoration: none;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #136404; 
+    color: #fff; 
+    font-size: 14px; 
+    transition: background-color 0.3s ease; 
+}
+
+nav a span {
+    display: block;
+    padding: 10px;
+    text-align: center; 
+    font-style: oblique,  serif;
+    font-size: 20px;
+}
+
 /* Bordered form */
 form{
     width: 100%;
